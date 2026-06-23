@@ -98,7 +98,7 @@ Total: ~2040 (noisy text, canonical JSON) training pairs.
 | Batch size | 4 (effective 16 with gradient accumulation) |
 | Learning rate | 2e-4 (cosine schedule) |
 | Hardware | RTX 3060 12GB |
-| Training time | ~28 minutes |
+| Training time | ~75 minutes |
 | Final train loss | 1.45 |
 | Final eval loss | 1.31 |
 
