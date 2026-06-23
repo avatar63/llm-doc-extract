@@ -147,7 +147,6 @@ print(result)
 
 - Rule-based character normalization pre-processing layer
 - ONNX export and quantization for edge/mobile deployment
-- Expand to Hindi and Arabic receipts (multilingual extension)
 - Increase training data volume for improved company name denoising
 
 ---
