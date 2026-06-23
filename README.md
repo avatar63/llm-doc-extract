@@ -131,7 +131,7 @@ print(result)
 **Model adapter on HuggingFace:** [avatar63/qwen-receipt-extractor](https://huggingface.co/avatar63/qwen-receipt-extractor)
 
 
-**Adapter demo:** https://huggingface.co/spaces/avatar63/receipt-extractor-demo
+Adapter demo: https://huggingface.co/spaces/avatar63/receipt-extractor-demo
 ---
 
 ## Limitations
