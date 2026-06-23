@@ -10,9 +10,9 @@ Takes raw, noisy OCR text from scanned receipts and invoices and extracts struct
 
 ```
 Input (noisy OCR):                          Output (structured JSON):
-RELI4NCE FR3SH                    →         {
+RELI4NCE FR3SH                               {
 Sh0p N0 12, 5ect0r 18                         "company_name": "RELIANCE FRESH SHOP",
-D4te: O5-ll-2O24                              "address": "NO 12, SECTOR 18, GURUGRAM",
+D4te: O5-ll-2O24            Converts To:      "address": "NO 12, SECTOR 18, GURUGRAM",
 Net P4y4ble: 34O.OO                           "date": "2024-11-05",
                                               "total_amount": 340.0,
                                               "line_items": [...]
@@ -53,7 +53,7 @@ Scanned image
   docTR OCR
      ↓
  Noisy text  ──────────────────────────────────────┐
-     ↓                                              │
+     ↓                                             │
  [Training only]                                   │ [Inference]
  Noise injection                                   │
      ↓                                             ↓
