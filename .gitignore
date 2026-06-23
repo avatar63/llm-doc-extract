@@ -1,0 +1,7 @@
+venv/
+.env
+*.jsonl
+*.json
+doc_extract_lora/
+__pycache__/
+*.pyc
